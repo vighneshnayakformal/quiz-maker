@@ -1,0 +1,10 @@
+* {
+  background-color: #1e1e2f;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+  color: white;
+  background-color: #191919;
+}
