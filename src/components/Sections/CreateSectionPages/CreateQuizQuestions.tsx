@@ -157,6 +157,7 @@ const CreateQuizQuestions = ({ setCreateMode }: Props) => {
       <br />
       {bData.map((q, i) => (
         <div key={i}>
+          <hr />
           <label htmlFor={`question_${i + 1}`}>Question {i + 1}</label>
           <input
             type="text"
